@@ -210,3 +210,17 @@ ul {
   font-size: 18px;
   font-weight: 700;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  width: 1440px;
+  height: 100px;
+}
+
+.copyright {
+  color: #E5E7EB;
+  font-size: 18px;
+}
