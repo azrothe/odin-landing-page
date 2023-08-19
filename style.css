@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: black;*/
+  background-color: black;
 }
 
 a {
@@ -30,14 +30,14 @@ ul {
   flex-direction: column;
   width: 1440px;
   height: 535px;
-  gap: 100px;
+  gap: 120px;
 }
 
 .header-top {
   display: flex;
   justify-content: center;
-  gap: 500px;
-  padding: 16px;
+  gap: 460px;
+  padding-top: 18px;
 }
 
 .header-logo {
@@ -47,6 +47,7 @@ ul {
 .header-links {
   display:flex;
   gap: 24px;
+  padding-top: 5px;
 }
 
 .hero-text {
@@ -72,7 +73,7 @@ ul {
 .header-bottom {
   display: flex;
   justify-content: center;
-  gap: 125px;
+  gap: 50px;
 }
 
 .header-bottom-text {
@@ -80,17 +81,21 @@ ul {
   flex-direction: column;
   flex-basis: 450px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .header-bottom-image {
-  height: 250px;
-  width: 500px;
+  height: 235px;
+  width: 520px;
   background-color: lightslategrey;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #E5E7EB;
+}
+
+.header-bottom-image-text {
+  font-size: 18px;
 }
 
 .information {
@@ -121,7 +126,7 @@ ul {
 .information-boxes {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 58px;
 }
 
 .box-and-text {
@@ -134,6 +139,8 @@ ul {
 
 .box-subtext {
   text-align: center;
+  font-size: 18px;
+  color: #1F2937;
 }
 
 .quote {
@@ -149,7 +156,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 830px;
+  width: 820px;
 }
 
 .quote-text {
@@ -160,7 +167,7 @@ ul {
 }
 
 .quote-signature {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #1F2937;
   padding-right: 35px;
